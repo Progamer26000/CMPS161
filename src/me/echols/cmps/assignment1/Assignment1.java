@@ -1,5 +1,4 @@
-//Samuel Echols September 28 2021 Assignment1
-
+//Samuel Echols September 28 2021 Assignment1 (Revised)
 package me.echols.cmps.assignment1;
 
 import java.util.Scanner;
