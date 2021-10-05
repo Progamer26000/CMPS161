@@ -19,7 +19,21 @@ public class Assignment1 {
 		int num2 = (num1 + 50) * 20;
 		int result = num2 + 1020 - birthYear;
 
-		System.out.println("Result: " + result);
-	}
+		//Result as a string
+		String stringResult = String.valueOf(result);
 
+		/*
+		Adds a 0 to the beginning of the result to clarify
+		that the shoe size was less than 10 and to keep the convention
+		of a 4-digit number
+		 */
+		if (shoeSize < 10) {
+			//adds a 0 to the beginning
+			stringResult = '0' + stringResult;
+			System.out.println("Result: " + stringResult);
+
+		} else {
+			System.out.println("Result: " + result);
+		}
+	}
 }
